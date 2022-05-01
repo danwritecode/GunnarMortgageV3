@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-[91.3vh] flex items-center">
+  <div class="min-h-[91.2vh] flex items-center">
     <!-- <Transition
       enter-active-class="animate__animated animate__fadeIn"
       leave-active-class="animate__animated animate__fadeOut"
@@ -37,7 +37,7 @@
     </Transition>
 
     <!-- Arrows -->
-    <div class="hidden md:absolute w-full h-1/4 top-0 md:flex items-center justify-center">
+    <div class="hidden md:absolute w-full h-1/4 inset-x-0 top-0 md:flex items-center justify-center">
       <button @click="curStepIndex--" class="text-red-500 hover:text-red-600 transition-hover-300">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
           <path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" />
@@ -45,7 +45,7 @@
       </button>
     </div>
 
-    <div class="hidden md:absolute w-full h-1/4 bottom-0 md:flex items-center justify-center">
+    <div class="hidden md:absolute w-full h-1/4 inset-x-0 bottom-0 md:flex items-center justify-center">
       <button @click="curStepIndex++" class="text-red-500 hover:text-red-600 transition-hover-300">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
           <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
