@@ -3,8 +3,8 @@
     <nav>
       <div class="max-w-7xl lg:max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center p-4">
         <div class="flex space-x-4">
-          <img src="~/assets/img/logos/gm_circle.svg" alt="" class="h-14 w-14">
-          <img src="~/assets/img/logos/mm_logo.svg" alt="" class="h-14 w-14">
+          <img src="~/assets/img/logos/gm_circle.svg" alt="" class="h-12 w-12 sm:h-14 sm:w-14">
+          <img src="~/assets/img/logos/mm_logo.svg" alt="" class="h-12 w-12 sm:h-14 sm:w-14">
         </div>
         <div class="hidden bg-red-500 rounded-full py-4 px-10 w-[30rem] md:flex items-center justify-around">
           <nuxt-link to="/" class="text-turq-500 font-medium">Home</nuxt-link>
@@ -29,8 +29,8 @@
           <div class="rounded-lg shadow-lg bg-zinc-900 ring-2 ring-zinc-100 ring-opacity-5 overflow-hidden">
             <div class="px-5 pt-4 flex items-center justify-between">
               <div class="flex space-x-4">
-                <img src="~/assets/img/logos/gm_circle.svg" alt="" class="h-14 w-14">
-                <img src="~/assets/img/logos/mm_logo.svg" alt="" class="h-14 w-14">
+                <img src="~/assets/img/logos/gm_circle.svg" alt="" class="h-12 w-12">
+                <img src="~/assets/img/logos/mm_logo.svg" alt="" class="h-12 w-12">
               </div>
               <div class="-mr-2">
                 <button @click="showMobileNav = false" type="button" class="p-2 rounded-md inline-flex items-center justify-center text-red-500 hover:text-red-600 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-red-600 transition-hover-300">
