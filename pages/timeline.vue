@@ -39,8 +39,10 @@
 
       <!-- Mobile Step Buttons -->
       <div class="mt-20 sm:mt-0 md:hidden grid grid-cols-2 gap-4">
-        <button @click="curStepIndex--" type="button" class="text-center px-4 py-2 border border-red-500 shadow-sm text-sm font-medium rounded-md text-red-500 hover:text-red-600 hover:border-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-600 ring-offset-zinc-900 transition-hover-300">Previous</button>
-        <button @click="curStepIndex++" type="button" class="text-center px-4 py-2 border border-red-500 shadow-sm text-sm font-medium rounded-md text-red-500 hover:text-red-600 hover:border-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-600 ring-offset-zinc-900 transition-hover-300">Next</button>
+        <button v-if="curStepIndex !== 0" @click="curStepIndex--" type="button" class="text-center px-4 py-2 border border-red-500 shadow-sm text-sm font-medium rounded-md text-red-500 hover:text-red-600 hover:border-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-600 ring-offset-zinc-900 transition-hover-300">Previous</button>
+        <button v-else disabled type="button" class="text-center px-4 py-2 border border-gray-500 shadow-sm text-sm font-medium rounded-md text-gray-500">Previous</button>
+        <button v-if="curStepIndex + 1 < steps.length" @click="curStepIndex++" type="button" class="text-center px-4 py-2 border border-red-500 shadow-sm text-sm font-medium rounded-md text-red-500 hover:text-red-600 hover:border-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-600 ring-offset-zinc-900 transition-hover-300">Next</button>
+        <button v-else disabled type="button" class="text-center px-4 py-2 border border-gray-500 shadow-sm text-sm font-medium rounded-md text-gray-500">Next</button>
       </div>
     </div>
 
