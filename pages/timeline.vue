@@ -5,36 +5,44 @@
       leave-active-class="animate__animated animate__fadeOut"
       mode="out-in"
     > -->
-    <Transition name="fade" mode="out-in">
-      <div :key="curStepIndex" class="md:flex items-center md:space-x-16 lg:space-x-20 2xl:space-x-32 sm:py-24">
-        <div class="bg-red-500 h-24 w-24 sm:h-40 sm:w-40 md:h-64 md:w-64 lg:h-72 lg:w-72 2xl:h-96 2xl:w-96 rounded-full shrink-0 flex items-center justify-center">
-          <span class="text-4xl sm:text-6xl md:text-9xl font-black text-turq-500">{{ steps[curStepIndex].step }}</span>
-        </div>
-        <div class="mt-4 sm:mt-8 md:mt-0">
-          <h1 class="text-4xl md:text-5xl lg:text-6xl 2xl:text-9xl font-black text-turq-500">{{ steps[curStepIndex].title }}</h1>
-          <p class="mt-4 text-zinc-300 lg:text-lg 2xl:text-xl text-justify">{{ steps[curStepIndex].description }}</p>
-          <div class="mt-6 flex items-center space-x-10">
-            <div>
-              <span class="text-xs uppercase text-zinc-400">Difficulty</span>
-              <div class="flex space-x-1">
-                <div v-if="steps[curStepIndex].difficulty >= 1" class="h-6 w-4 bg-green-500"></div>
-                <div v-if="steps[curStepIndex].difficulty >= 2" class="h-6 w-4 bg-yellow-500"></div>
-                <div v-if="steps[curStepIndex].difficulty >= 3" class="h-6 w-4 bg-red-500"></div>
+    <div>
+      <Transition name="fade" mode="out-in">
+        <div :key="curStepIndex" class="md:flex items-center md:space-x-16 lg:space-x-20 2xl:space-x-32 sm:py-24">
+          <div class="bg-red-500 h-24 w-24 sm:h-40 sm:w-40 md:h-64 md:w-64 lg:h-72 lg:w-72 2xl:h-96 2xl:w-96 rounded-full shrink-0 flex items-center justify-center">
+            <span class="text-4xl sm:text-6xl md:text-9xl font-black text-turq-500">{{ steps[curStepIndex].step }}</span>
+          </div>
+          <div class="mt-4 sm:mt-8 md:mt-0">
+            <h1 class="text-4xl md:text-5xl lg:text-6xl 2xl:text-9xl font-black text-turq-500">{{ steps[curStepIndex].title }}</h1>
+            <p class="mt-4 text-zinc-300 lg:text-lg 2xl:text-xl text-justify">{{ steps[curStepIndex].description }}</p>
+            <div class="mt-6 flex items-center space-x-10">
+              <div>
+                <span class="text-xs uppercase text-zinc-400">Difficulty</span>
+                <div class="flex space-x-1">
+                  <div v-if="steps[curStepIndex].difficulty >= 1" class="h-6 w-4 bg-green-500"></div>
+                  <div v-if="steps[curStepIndex].difficulty >= 2" class="h-6 w-4 bg-yellow-500"></div>
+                  <div v-if="steps[curStepIndex].difficulty >= 3" class="h-6 w-4 bg-red-500"></div>
+                </div>
               </div>
-            </div>
-            <div>
-              <span class="text-xs uppercase text-zinc-400">TIME</span>
-              <div class="flex items-center space-x-2">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-zinc-100" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-                <span class="text-turq-500 font-semibold">{{ steps[curStepIndex].time_desc }}</span>
+              <div>
+                <span class="text-xs uppercase text-zinc-400">TIME</span>
+                <div class="flex items-center space-x-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-zinc-100" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                  <span class="text-turq-500 font-semibold">{{ steps[curStepIndex].time_desc }}</span>
+                </div>
               </div>
             </div>
           </div>
         </div>
+      </Transition>
+
+      <!-- Mobile Step Buttons -->
+      <div class="mt-20 sm:mt-0 md:hidden grid grid-cols-2 gap-4">
+        <button @click="curStepIndex--" type="button" class="text-center px-4 py-2 border border-red-500 shadow-sm text-sm font-medium rounded-md text-red-500 hover:text-red-600 hover:border-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-600 ring-offset-zinc-900 transition-hover-300">Previous</button>
+        <button @click="curStepIndex++" type="button" class="text-center px-4 py-2 border border-red-500 shadow-sm text-sm font-medium rounded-md text-red-500 hover:text-red-600 hover:border-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-600 ring-offset-zinc-900 transition-hover-300">Next</button>
       </div>
-    </Transition>
+    </div>
 
     <!-- Arrows -->
     <div class="hidden md:absolute w-full h-1/4 inset-x-0 top-0 md:flex items-center justify-center">
