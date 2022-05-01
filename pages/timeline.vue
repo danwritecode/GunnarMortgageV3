@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-[91.2vh] flex items-center pb-32 sm:pb-0">
+  <div class="min-h-[91.3vh] flex items-center pb-16 sm:pb-0">
     <!-- <Transition
       enter-active-class="animate__animated animate__fadeIn"
       leave-active-class="animate__animated animate__fadeOut"
@@ -8,11 +8,16 @@
     <div>
       <Transition name="fade" mode="out-in">
         <div :key="curStepIndex" class="md:flex items-center md:space-x-16 lg:space-x-20 2xl:space-x-32 sm:py-24">
-          <div class="bg-red-500 h-14 w-14 sm:h-40 sm:w-40 md:h-64 md:w-64 lg:h-72 lg:w-72 2xl:h-96 2xl:w-96 rounded-full shrink-0 flex items-center justify-center">
+          <div class="hidden bg-red-500 h-14 w-14 sm:h-40 sm:w-40 md:h-64 md:w-64 lg:h-72 lg:w-72 2xl:h-96 2xl:w-96 rounded-full shrink-0 md:flex items-center justify-center">
             <span class="text-4xl sm:text-6xl md:text-9xl font-black text-turq-500">{{ steps[curStepIndex].step }}</span>
           </div>
           <div class="mt-4 sm:mt-8 md:mt-0">
-            <h1 class="text-4xl md:text-5xl lg:text-6xl 2xl:text-9xl font-black text-turq-500">{{ steps[curStepIndex].title }}</h1>
+            <div class="flex items-center">
+              <div class="mr-4 md:hidden bg-red-500 h-14 w-14 sm:h-16 sm:w-16 rounded-full shrink-0 flex items-center justify-center">
+                <span class="text-4xl sm:text-4xl font-black text-turq-500">{{ steps[curStepIndex].step }}</span>
+              </div>
+              <h1 class="text-4xl md:text-5xl lg:text-6xl 2xl:text-9xl font-black text-turq-500">{{ steps[curStepIndex].title }}</h1>
+            </div>
             <p class="mt-4 text-zinc-300 lg:text-lg 2xl:text-xl text-justify">{{ steps[curStepIndex].description }}</p>
             <div class="mt-6 flex items-center space-x-10">
               <div>

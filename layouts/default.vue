@@ -1,19 +1,19 @@
 <template>
-  <div :class="getRouteBg()" class="relative">
+  <div :class="getRouteBg()">
     <nav>
       <div class="max-w-7xl lg:max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center p-4">
         <div class="flex space-x-4">
           <img src="~/assets/img/logos/gm_circle.svg" alt="" class="h-12 w-12 sm:h-14 sm:w-14">
           <img src="~/assets/img/logos/mm_logo.svg" alt="" class="h-12 w-12 sm:h-14 sm:w-14">
         </div>
-        <div class="hidden bg-red-500 rounded-full py-4 px-10 w-[30rem] md:flex items-center justify-around">
+        <div class="z-10 hidden bg-red-500 rounded-full py-4 px-10 w-[30rem] md:flex items-center justify-around">
           <nuxt-link to="/" class="text-turq-500 font-medium">Home</nuxt-link>
           <nuxt-link to="/timeline" class="text-turq-500 font-medium">Timeline</nuxt-link>
           <nuxt-link to="/" class="text-turq-500 font-medium">Contact</nuxt-link>
-          <nuxt-link to="/" class="text-turq-500 font-medium">Get Started</nuxt-link>
+          <nuxt-link to="/testing" class="text-turq-500 font-medium">Get Started</nuxt-link>
         </div>
         <div class="flex items-center md:hidden">
-          <button @click="showMobileNav = true" type="button" class="rounded-md p-2 inline-flex items-center justify-center text-red-500 hover:text-red-600 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-red-600 transition-hover-300" aria-expanded="false">
+          <button @click="showMobileNav = true" type="button" class="z-10 rounded-md p-2 inline-flex items-center justify-center text-red-500 hover:text-red-600 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-red-600 transition-hover-300" aria-expanded="false">
             <span class="sr-only">Open main menu</span>
             <!-- Heroicon name: outline/menu -->
             <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">

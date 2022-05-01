@@ -14,7 +14,6 @@ html {
 
 .layout-enter-from {
   opacity: 0;
-  transform: translateY(-10px);
 }
 .layout-enter-active,
 .layout-leave-active {
@@ -26,7 +25,6 @@ html {
 }
 .page-enter-from {
   opacity: 0;
-  transform: translateY(-10px);
 }
 .page-enter-active,
 .page-leave-active {
@@ -36,6 +34,7 @@ html {
 .page-leave-to {
   opacity: 0;
 }
+
 ::-webkit-scrollbar {
   width: 20px;
 }
