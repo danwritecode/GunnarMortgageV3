@@ -1,8 +1,11 @@
 <template>
   <div>
     <div class="min-h-[100vh] max-w-7xl lg:max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-center">
-      <div class="grid grid-cols-2 pb-48">
-        <div class="text-left w-full">
+      <div class="sm:grid sm:grid-cols-2 pb-48">
+        <div class="order-2 flex items-center sm:justify-end">
+          <img src="~/assets/img/logos/gm_circle.svg" alt="" class="h-32 sm:h-72 md:h-96 w-auto">
+        </div>
+        <div class="order-1 mt-8 sm:mt-0 text-left w-full">
           <h1 class="text-5xl sm:text-6xl lg:text-7xl 2xl:text-8xl font-bold lg:max-w-4xl 2xl:max-w-6xl text-turq-500">Isn't it time you used Gunnar for your mortgage?</h1>
           <div class="ml-2.5 flex justify-start">
             <div class="mt-16 2xl:mt-20 relative bg-turq-500 w-72 lg:w-96 2xl:w-[27rem] h-16 md:h-20 rounded-full">
@@ -11,9 +14,6 @@
               </button>
             </div>  
           </div>
-        </div>
-        <div class="flex items-center justify-end">
-          <img src="~/assets/img/logos/gm_circle.svg" alt="" class="h-96 w-auto">
         </div>
       </div>
     </div>
