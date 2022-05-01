@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-[91.2vh] flex items-center">
+  <div class="min-h-[91.2vh] flex items-center pb-32 sm:pb-0">
     <!-- <Transition
       enter-active-class="animate__animated animate__fadeIn"
       leave-active-class="animate__animated animate__fadeOut"
