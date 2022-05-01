@@ -8,7 +8,7 @@
         </div>
         <div class="hidden bg-red-500 rounded-full py-4 px-10 w-[30rem] md:flex items-center justify-around">
           <nuxt-link to="/" class="text-turq-500 font-medium">Home</nuxt-link>
-          <nuxt-link to="/" class="text-turq-500 font-medium">About</nuxt-link>
+          <nuxt-link to="/timeline" class="text-turq-500 font-medium">Timeline</nuxt-link>
           <nuxt-link to="/" class="text-turq-500 font-medium">Contact</nuxt-link>
           <nuxt-link to="/" class="text-turq-500 font-medium">Get Started</nuxt-link>
         </div>
@@ -43,10 +43,10 @@
               </div>
             </div>
             <div class="px-2 pt-2 pb-3 space-y-1">
-              <nuxt-link to="/" class="block px-3 py-2 rounded-md text-base font-medium text-turq-600 hover:text-turq-500 hover:bg-zinc-800 transition-hover-300">Product</nuxt-link>
-              <nuxt-link to="/" class="block px-3 py-2 rounded-md text-base font-medium text-turq-600 hover:text-turq-500 hover:bg-zinc-800 transition-hover-300">Features</nuxt-link>
-              <nuxt-link to="/" class="block px-3 py-2 rounded-md text-base font-medium text-turq-600 hover:text-turq-500 hover:bg-zinc-800 transition-hover-300">Marketplace</nuxt-link>
-              <nuxt-link to="/" class="block px-3 py-2 rounded-md text-base font-medium text-turq-600 hover:text-turq-500 hover:bg-zinc-800 transition-hover-300">Company</nuxt-link>
+              <nuxt-link @click="showMobileNav = false" to="/" class="block px-3 py-2 rounded-md text-base font-medium text-turq-600 hover:text-turq-500 hover:bg-zinc-800 transition-hover-300">Home</nuxt-link>
+              <nuxt-link @click="showMobileNav = false" to="/timeline" class="block px-3 py-2 rounded-md text-base font-medium text-turq-600 hover:text-turq-500 hover:bg-zinc-800 transition-hover-300">Timeline</nuxt-link>
+              <nuxt-link @click="showMobileNav = false" to="/" class="block px-3 py-2 rounded-md text-base font-medium text-turq-600 hover:text-turq-500 hover:bg-zinc-800 transition-hover-300">Contact</nuxt-link>
+              <nuxt-link @click="showMobileNav = false" to="/" class="block px-3 py-2 rounded-md text-base font-medium text-turq-600 hover:text-turq-500 hover:bg-zinc-800 transition-hover-300">Get Started</nuxt-link>
             </div>
           </div>
         </div>
