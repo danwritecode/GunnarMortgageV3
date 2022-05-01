@@ -1,5 +1,5 @@
 <template>
-  <div :class="getRouteBg()">
+  <div :class="getRouteBg()" class="relative">
     <nav>
       <div class="max-w-7xl lg:max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center p-4">
         <div class="flex space-x-4">
@@ -52,7 +52,7 @@
         </div>
       </transition>
     </nav>
-    <div class="max-w-7xl lg:max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+    <div class="max-w-7xl lg:max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
       <slot />
     </div>
   </div>
