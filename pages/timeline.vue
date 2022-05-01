@@ -8,7 +8,7 @@
     <div>
       <Transition name="fade" mode="out-in">
         <div :key="curStepIndex" class="md:flex items-center md:space-x-16 lg:space-x-20 2xl:space-x-32 sm:py-24">
-          <div class="bg-red-500 h-24 w-24 sm:h-40 sm:w-40 md:h-64 md:w-64 lg:h-72 lg:w-72 2xl:h-96 2xl:w-96 rounded-full shrink-0 flex items-center justify-center">
+          <div class="bg-red-500 h-14 w-14 sm:h-40 sm:w-40 md:h-64 md:w-64 lg:h-72 lg:w-72 2xl:h-96 2xl:w-96 rounded-full shrink-0 flex items-center justify-center">
             <span class="text-4xl sm:text-6xl md:text-9xl font-black text-turq-500">{{ steps[curStepIndex].step }}</span>
           </div>
           <div class="mt-4 sm:mt-8 md:mt-0">
