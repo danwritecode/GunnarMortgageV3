@@ -6,6 +6,6 @@
 
 <script setup>
 definePageMeta({
-  layout: 'dark'
+  bgType: 'dark'
 })
 </script>
