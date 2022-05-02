@@ -2,7 +2,7 @@
   <div :class="getRouteBg()">
     <nav>
       <div class="max-w-7xl lg:max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center p-4">
-        <div class="flex space-x-4">
+        <div class="z-10 flex space-x-4">
           <img src="~/assets/img/logos/gm_circle.svg" alt="" class="h-12 w-12 sm:h-14 sm:w-14">
           <img src="~/assets/img/logos/mm_logo.svg" alt="" class="h-12 w-12 sm:h-14 sm:w-14">
         </div>

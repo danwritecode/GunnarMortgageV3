@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div class="min-h-[100vh] max-w-7xl lg:max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-center">
+  <div class="relative">
+    <div class="min-h-[100vh] flex items-center justify-center">
       <div class="sm:grid sm:grid-cols-2 pb-48">
         <div class="order-2 flex items-center sm:justify-end">
           <img src="~/assets/img/logos/gm_circle.svg" alt="" class="h-32 sm:h-72 md:h-96 w-auto">
