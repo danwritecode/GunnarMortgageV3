@@ -1,12 +1,13 @@
 <template>
   <div>
-    <div class="bg-[url('~/assets/img/cartographer.webp')] absolute inset-0 z-0"></div>
     <IndexHero />
+    <IndexWhoisgunnar />
   </div>
 </template>
 
 <script setup>
 definePageMeta({
-  bgType: 'none'
+  background: 'none',
+  rails: false
 })
 </script>

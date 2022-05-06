@@ -52,7 +52,7 @@
         </div>
       </transition>
     </nav>
-    <div class="max-w-7xl lg:max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div :class="getRouteRails()">
       <slot />
     </div>
   </div>
@@ -64,10 +64,15 @@ import { ref } from 'vue'
 const showMobileNav = ref(false)
 
 const curRouteColor = useState('routeColor')
+const curRouteRails = useState('routeRails')
 
 const getRouteBg = () => {
   if(curRouteColor.value === 'dark') return "bg-[url('~/assets/img/cartographer.webp')]"
   if(curRouteColor.value === 'light') return "bg-[url('~/assets/img/topography_light.webp')]"
+}
+
+const getRouteRails = () => {
+  if(curRouteRails.value === true) return "max-w-7xl lg:max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8"
 }
 
 </script>
