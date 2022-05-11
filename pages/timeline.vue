@@ -79,7 +79,8 @@
 import 'animate.css';
 
 definePageMeta({
-  bgType: 'dark'
+  background: 'dark',
+  rails: true
 })
 
 const curStepIndex = ref(0)

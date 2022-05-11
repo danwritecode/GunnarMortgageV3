@@ -2,8 +2,8 @@
   <div>
     <div class="bg-[url('~/assets/img/cartographer.webp')] absolute inset-0 z-0"></div>
     <div class="relative max-w-7xl lg:max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="min-h-[90.5vh] flex items-center justify-center">
-        <div class="sm:grid sm:grid-cols-2 2xl:pb-48">
+      <div class="min-h-[91.3vh] flex items-center justify-center">
+        <div class="sm:grid sm:grid-cols-2 2xl:pb-40">
           <div class="order-2 flex items-center sm:justify-end">
             <img src="~/assets/img/logos/gm_circle.svg" alt="" class="h-32 sm:h-72 md:h-96 w-auto">
           </div>
