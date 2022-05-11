@@ -9,8 +9,8 @@
       <div class="grid grid-cols-1 gap-14 lg:gap-0 2xl:ml-16 lg:col-span-4">
         <div class="relative lg:flex lg:items-center">
           <div class="lg:absolute grid lg:grid-cols-6 gap-6 lg:gap-12 place-items-center">
-            <div class="relative bg-red-500 h-32 w-32 xl:h-56 xl:w-56 2xl:h-64 2xl:w-64 rounded-full col-span-2">
-              <img src="~/assets/img/GunnarHeadshot.jpg" alt="" class="absolute -left-2 -top-2 rounded-full h-32 w-32 xl:h-56 xl:w-56 2xl:h-64 2xl:w-64 object-cover">
+            <div class="relative bg-red-500 h-32 w-32 md:h-56 md:w-56 2xl:h-64 2xl:w-64 rounded-full col-span-2">
+              <img src="~/assets/img/GunnarHeadshot.jpg" alt="" class="absolute -left-2 -top-2 rounded-full h-32 w-32 md:h-56 md:w-56 2xl:h-64 2xl:w-64 object-cover">
             </div>
             <dl class="space-y-3 2xl:space-y-10 col-span-4">
               <div class="relative">
@@ -70,8 +70,8 @@
         <div class="relative lg:flex lg:items-center pt-5">
           <div class="lg:hidden absolute inset-x-0 bottom-0 h-full bg-[url('~/assets/img/cartographer.webp')] -mx-4 sm:-mx-6 lg:-mx-8"></div>
           <div class="lg:absolute grid lg:grid-cols-6 gap-6 lg:gap-12 place-items-center">
-            <div class="relative bg-turq-500 h-32 w-32 xl:h-56 xl:w-56 2xl:h-64 2xl:w-64 rounded-full col-span-2">
-              <img src="~/assets/img/GunFlamethrower.jpg" alt="" class="absolute -left-2 -top-2 rounded-full h-32 w-32 xl:h-56 xl:w-56 2xl:h-64 2xl:w-64 object-cover">
+            <div class="relative bg-turq-500 h-32 w-32 md:h-56 md:w-56 2xl:h-64 2xl:w-64 rounded-full col-span-2">
+              <img src="~/assets/img/GunFlamethrower.jpg" alt="" class="absolute -left-2 -top-2 rounded-full h-32 w-32 md:h-56 md:w-56 2xl:h-64 2xl:w-64 object-cover">
             </div>
             <dl class="space-y-3 2xl:space-y-10 col-span-4">
               <div class="relative">
