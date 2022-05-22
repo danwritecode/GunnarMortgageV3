@@ -1,7 +1,8 @@
 <template>
   <div>
     <IndexHero />
-    <IndexWhoisgunnar />
+    <IndexWhoisgunnarv2 />
+    <IndexCustomers />
   </div>
 </template>
 

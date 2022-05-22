@@ -4,7 +4,7 @@
     <div class="grid grid-cols-1 lg:grid-cols-6 gap-10 min-h-[100vh] xl:min-h-[125vh] 2xl:min-h-[100vh] max-w-7xl lg:max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="relative lg:static flex items-center justify-center lg:justify-start bg-white lg:col-span-2 py-40 lg:py-0">
         <div class="lg:hidden absolute inset-x-0 bottom-0 h-1/2 bg-[url('~/assets/img/cartographer.webp')] -mx-4 sm:-mx-6 lg:-mx-8"></div>
-        <h1 class="left-8 top-10 font-black text-7xl lg:text-7xl xl:text-8xl 2xl:text-9xl text-white mix-blend-difference text-center max-w-xs">So who is Gunnar, really?</h1>
+        <h1 class="left-8 top-10 font-black text-7xl lg:text-7xl xl:text-8xl 2xl:text-9xl text-white mix-blend-difference text-center max-w-xs">So who is Gunnar really?</h1>
       </div>
       <div class="grid grid-cols-1 gap-14 lg:gap-0 2xl:ml-16 lg:col-span-4">
         <div class="relative lg:flex lg:items-center">
