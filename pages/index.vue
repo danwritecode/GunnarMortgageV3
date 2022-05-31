@@ -3,6 +3,7 @@
     <IndexHero />
     <IndexWhoisgunnarv2 />
     <IndexCustomers />
+    <IndexReviews />
   </div>
 </template>
 
