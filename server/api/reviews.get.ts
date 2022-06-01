@@ -13,7 +13,7 @@ export default defineEventHandler(async (event) => {
   }
 })
 
-const getReviews = async ():Promise<any> => {
-  const response = await $fetch(`https://maps.googleapis.com/maps/api/place/details/json?place_id=${runtimeConfig.googleBusinessId}&key=${runtimeConfig.googleKey}`)
+const getReviews = async ():Promise<ReviewApiResponse> => {
+  const response = await $fetch<ReviewApiResponse>(`https://maps.googleapis.com/maps/api/place/details/json?place_id=${runtimeConfig.googleBusinessId}&key=${runtimeConfig.googleKey}`)
   return response
 }

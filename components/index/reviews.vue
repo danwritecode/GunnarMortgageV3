@@ -26,7 +26,7 @@
       <div v-if="!loading" class="mt-10">
         <div class="relative h-96">
           <div :key="review.time" v-for="review in reviews" class="absolute item mx-4 rounded-lg bg-white border border-gray-200 shadow-lg hover:shadow-xl w-72 sm:w-[30rem]">
-            <div class="p-4 sm:p-8">
+            <div class="p-4 2xl:p-6">
               <blockquote>
                 <div>
                   <svg class="h-10 w-10 text-gb-600 opacity-25" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
@@ -47,7 +47,7 @@
                 </div>
               </div>
             </div>
-            <div class="bottom-0 w-full py-3 px-5 sm:py-4 sm:px-6 rounded-b-lg flex items-center bg-gradient-to-br from-zinc-900 via-zinc-700 to-zinc-500">
+            <div class="w-full py-3 px-5 sm:py-4 sm:px-6 rounded-b-lg flex items-center bg-gradient-to-br from-zinc-900 via-zinc-700 to-zinc-500">
               <div>
                 <img class="border-2 border-white w-10 h-10 flex-shrink-0 mx-auto bg-black rounded-full" :src="review.profile_photo_url" alt="">
               </div>
