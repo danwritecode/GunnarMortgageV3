@@ -19,7 +19,7 @@
           Let's see what former customers have to say
         </h3>
         <p class="max-w-4xl text-lg sm:text-2xl font-medium sm:leading-10 space-y-6 mb-6 text-gray-600">
-          Every mortgage comes with a t-shirt, photo opp, and if you're lucky, a hug.
+          Not convinced? Gunnar has hundreds of reviews. See what others have to say.
         </p>
       </div>
 
@@ -47,7 +47,7 @@
                 </div>
               </div>
             </div>
-            <div class="bottom-0 w-full py-3 px-5 sm:py-4 sm:px-6 rounded-b-lg flex items-center bg-gradient-to-br from-red-600 via-red-400 to-indigo-400">
+            <div class="bottom-0 w-full py-3 px-5 sm:py-4 sm:px-6 rounded-b-lg flex items-center bg-gradient-to-br from-zinc-900 via-zinc-700 to-zinc-500">
               <div>
                 <img class="border-2 border-white w-10 h-10 flex-shrink-0 mx-auto bg-black rounded-full" :src="review.profile_photo_url" alt="">
               </div>
