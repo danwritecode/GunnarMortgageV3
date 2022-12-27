@@ -25,7 +25,7 @@
     <IndexHero />
     <!-- <IndexWhoisgunnarv2 /> -->
     <!-- <IndexCustomers /> -->
-    <IndexReviews class="pb-24" />
+    <IndexReviews />
   </div>
 </template>
 
