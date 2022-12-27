@@ -1,4 +1,4 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 Minimal Starter 
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
@@ -11,7 +11,7 @@ Make sure to install the dependencies:
 yarn install
 
 # npm
-npm install
+npm install 
 
 # pnpm
 pnpm install --shamefully-hoist
