@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="bg-[url('~/assets/img/cartographer.webp')]">
     <div class="bg-[url('~/assets/img/cartographer.webp')] absolute inset-0 z-0"></div>
     <div class="relative max-w-7xl lg:max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="min-h-[91.3vh] flex items-center justify-center">

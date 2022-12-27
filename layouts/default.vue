@@ -38,7 +38,7 @@
             </div>
             <div class="px-2 pt-2 pb-3 space-y-1">
               <NuxtLink @click="showMobileNav = false" to="/" class="block px-3 py-2 rounded-md text-base font-medium text-turq-600 hover:text-turq-500 hover:bg-zinc-800 transition-hover-300">Home</NuxtLink>
-              <NuxtLink @click="showMobileNav = false" to="/" class="block px-3 py-2 rounded-md text-base font-medium text-turq-600 hover:text-turq-500 hover:bg-zinc-800 transition-hover-300">Get Started</NuxtLink>
+              <NuxtLink @click="showMobileNav = false" to="https://calendly.com/gunnarmortgage/15min?month=2022-12" target="_blank" class="block px-3 py-2 rounded-md text-base font-medium text-turq-600 hover:text-turq-500 hover:bg-zinc-800 transition-hover-300">Get Started</NuxtLink>
             </div>
           </div>
         </div>
@@ -70,13 +70,13 @@
             <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
             </svg>
-            <p class="font-medium ml-2">Gunnar.bolf@movement.com</p>
+            <NuxtLink to="mailto:gunnar.bolf@movement.com" class="font-medium ml-2">Gunnar.bolf@movement.com</NuxtLink>
           </div>
           <div class="mt-1 flex justify-center sm:justify-start items-center text-white">
             <svg class="h-5 w-5"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
             </svg>
-            <p class="font-medium ml-2">(215) 870-8724</p>
+            <NuxtLink to="tel:2158708724" class="font-medium ml-2">(215) 870-8724</NuxtLink>
           </div>
         </div>
         <div class="flex items-center justify-center md:order-2 mt-8 md:mt-0">
