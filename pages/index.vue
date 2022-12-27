@@ -12,14 +12,14 @@
         <Meta property="og:url" content="https://gunnarmortgage.com" />
         <Meta property="og:title" content="Gunnar Mortgage" />
         <Meta name="description" content="Buying a home and getting a mortgage can be a stressful process. Work with someone who knows what their doing and has the reputation to back it." />
-        <Meta property="og:image" content="https://cms.phiapparel.co/uploads/logo_card_2d805d9638.jpg" />
+        <Meta property="og:image" content="https://github.com/danwritecode/GunnarMortgageV3/blob/main/assets/img/logos/card.png" />
 
         <!-- Twitter -->
         <Meta property="twitter:card" content="summary_large_image" />
         <Meta property="twitter:url" content="https://gunnarmortgage.com" />
         <Meta property="twitter:title" content="Gunnar Mortgage" />
         <Meta name="description" content="Buying a home and getting a mortgage can be a stressful process. Work with someone who knows what their doing and has the reputation to back it." />
-        <Meta property="twitter:image" content="https://cms.phiapparel.co/uploads/logo_card_2d805d9638.jpg" />
+        <Meta property="twitter:image" content="https://github.com/danwritecode/GunnarMortgageV3/blob/main/assets/img/logos/card.png" />
       </Head>
     </Html>
     <IndexHero />
