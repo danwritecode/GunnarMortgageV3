@@ -38,7 +38,7 @@
             </div>
             <div class="px-2 pt-2 pb-3 space-y-1">
               <NuxtLink @click="showMobileNav = false" to="/" class="block px-3 py-2 rounded-md text-base font-medium text-turq-600 hover:text-turq-500 hover:bg-zinc-800 transition-hover-300">Home</NuxtLink>
-              <NuxtLink @click="showMobileNav = false" to="https://calendly.com/gunnarmortgage/15min?month=2022-12" target="_blank" class="block px-3 py-2 rounded-md text-base font-medium text-turq-600 hover:text-turq-500 hover:bg-zinc-800 transition-hover-300">Get Started</NuxtLink>
+              <NuxtLink @click="showMobileNav = false" to="https://calendly.com/gunnarmortgage/15min?month=2022-12" target="_blank" class="block px-3 py-2 rounded-md text-base font-medium text-turq-600 hover:text-turq-500 hover:bg-zinc-800 transition-hover-300">Scheduled Meeting</NuxtLink>
             </div>
           </div>
         </div>
