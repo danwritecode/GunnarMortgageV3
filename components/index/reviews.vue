@@ -2,8 +2,8 @@
   <div class="bg-[url('~/assets/img/topography_light.webp')] overflow-hidden">
     <div class="max-w-7xl lg:max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
       <div class="flex-shrink-0 mb-5">
-          <div class="mr-3 relative bg-red-500 h-12 w-12 rounded-md">
-            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-zinc-900 text-red-500 left-1 bottom-1">
+          <div class="mr-3 relative bg-lime-500 h-12 w-12 rounded-md">
+            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-zinc-900 text-lime-500 left-1 bottom-1">
               <svg class="h-8 w-8" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                 <circle cx="12" cy="12" r="9" />

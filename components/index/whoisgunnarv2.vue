@@ -13,8 +13,8 @@
             <div>
               <img src="~/assets/img/gun_headshot.jpg" alt="" class="h-56 w-full object-cover rounded-md">
               <div class="mt-3 flex items-center">
-                <div class="mr-3 relative bg-red-500 h-6 w-6 rounded-md">
-                  <div class="absolute flex items-center justify-center h-6 w-6 rounded-md bg-zinc-800 text-red-500 left-0.5 bottom-0.5">
+                <div class="mr-3 relative bg-lime-500 h-6 w-6 rounded-md">
+                  <div class="absolute flex items-center justify-center h-6 w-6 rounded-md bg-zinc-800 text-lime-500 left-0.5 bottom-0.5">
                     <svg class="h-5 w-5" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                       <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                       <rect x="3" y="7" width="18" height="13" rx="2" />
@@ -31,8 +31,8 @@
             <div>
               <img src="~/assets/img/gun_grad.jpg" alt="" class="h-56 w-full object-cover rounded-md">
               <div class="mt-3 flex items-center">
-                <div class="mr-3 relative bg-red-500 h-6 w-6 rounded-md">
-                  <div class="absolute flex items-center justify-center h-6 w-6 rounded-md bg-zinc-900 text-red-500 left-0.5 bottom-0.5">
+                <div class="mr-3 relative bg-lime-500 h-6 w-6 rounded-md">
+                  <div class="absolute flex items-center justify-center h-6 w-6 rounded-md bg-zinc-900 text-lime-500 left-0.5 bottom-0.5">
                     <svg class="h-5 w-5" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                       <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                       <path d="M14 3v4a1 1 0 0 0 1 1h4" />
@@ -49,8 +49,8 @@
             <div>
               <img src="~/assets/img/gun_dogs.jpg" alt="" class="h-56 w-full object-cover rounded-md object-top">
               <div class="mt-3 flex items-center">
-                <div class="mr-3 relative bg-red-500 h-6 w-6 rounded-md">
-                  <div class="absolute flex items-center justify-center h-6 w-6 rounded-md bg-zinc-900 text-red-500 left-0.5 bottom-0.5">
+                <div class="mr-3 relative bg-lime-500 h-6 w-6 rounded-md">
+                  <div class="absolute flex items-center justify-center h-6 w-6 rounded-md bg-zinc-900 text-lime-500 left-0.5 bottom-0.5">
                     <svg class="h-5 w-5" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                       <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                       <path d="M10 15l5.586 -5.585a2 2 0 1 1 3.414 -1.415a2 2 0 1 1 -1.413 3.414l-3.587 3.586" />
@@ -73,7 +73,7 @@
               <img src="~/assets/img/gun_cool.jpg" alt="" class="h-56 w-full object-cover rounded-md">
               <div class="mt-3 flex items-center">
                 <div class="mr-3 relative bg-turq-500 h-6 w-6 rounded-md">
-                  <div class="absolute flex items-center justify-center h-6 w-6 rounded-md bg-red-500 text-turq-500 left-0.5 bottom-0.5">
+                  <div class="absolute flex items-center justify-center h-6 w-6 rounded-md bg-lime-500 text-turq-500 left-0.5 bottom-0.5">
                     <svg class="h-5 w-5" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                       <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                       <path d="M7 11v8a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1v-7a1 1 0 0 1 1 -1h3a4 4 0 0 0 4 -4v-1a2 2 0 0 1 4 0v5h3a2 2 0 0 1 2 2l-1 5a2 3 0 0 1 -2 2h-7a3 3 0 0 1 -3 -3" />
@@ -88,7 +88,7 @@
               <img src="~/assets/img/gun_jits.jpg" alt="" class="h-56 w-full object-cover rounded-md">
               <div class="mt-3 flex items-center">
                 <div class="mr-3 relative bg-turq-500 h-6 w-6 rounded-md">
-                  <div class="absolute flex items-center justify-center h-6 w-6 rounded-md bg-red-500 text-turq-500 left-0.5 bottom-0.5">
+                  <div class="absolute flex items-center justify-center h-6 w-6 rounded-md bg-lime-500 text-turq-500 left-0.5 bottom-0.5">
                     <svg class="h-5 w-5" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                       <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                       <circle cx="18" cy="4" r="1" />
@@ -106,7 +106,7 @@
               <img src="~/assets/img/gun_dogs.jpg" alt="" class="h-56 w-full object-cover rounded-md object-top">
               <div class="mt-3 flex items-center">
                 <div class="mr-3 relative bg-turq-500 h-6 w-6 rounded-md">
-                  <div class="absolute flex items-center justify-center h-6 w-6 rounded-md bg-red-500 text-turq-500 left-0.5 bottom-0.5">
+                  <div class="absolute flex items-center justify-center h-6 w-6 rounded-md bg-lime-500 text-turq-500 left-0.5 bottom-0.5">
                     <svg class="h-5 w-5" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                       <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                       <path d="M10 15l5.586 -5.585a2 2 0 1 1 3.414 -1.415a2 2 0 1 1 -1.413 3.414l-3.587 3.586" />

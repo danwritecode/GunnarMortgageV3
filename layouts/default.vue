@@ -3,11 +3,10 @@
     <nav>
       <div class="max-w-7xl lg:max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center p-4">
         <div class="z-10 flex space-x-4">
-          <img src="~/assets/img/logos/gm_circle.svg" alt="" class="h-12 w-12 sm:h-14 sm:w-14">
-          <img src="~/assets/img/logos/mm_logo.svg" alt="" class="h-12 w-12 sm:h-14 sm:w-14">
+          <img src="~/assets/img/logos/gm_circle.svg" alt="" class="h-12 w-12 sm:h-16 sm:w-16">
         </div>
         <div class="flex items-center md:hidden">
-          <button @click="showMobileNav = true" type="button" class="z-10 rounded-md p-2 inline-flex items-center justify-center text-red-500 hover:text-red-600 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-red-600 transition-hover-300" aria-expanded="false">
+          <button @click="showMobileNav = true" type="button" class="z-10 rounded-md p-2 inline-flex items-center justify-center text-lime-500 hover:text-lime-600 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-lime-600 transition-hover-300" aria-expanded="false">
             <span class="sr-only">Open main menu</span>
             <!-- Heroicon name: outline/menu -->
             <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -24,10 +23,9 @@
             <div class="px-5 pt-4 flex items-center justify-between">
               <div class="flex space-x-4">
                 <img src="~/assets/img/logos/gm_circle.svg" alt="" class="h-12 w-12">
-                <img src="~/assets/img/logos/mm_logo.svg" alt="" class="h-12 w-12">
               </div>
               <div class="-mr-2">
-                <button @click="showMobileNav = false" type="button" class="p-2 rounded-md inline-flex items-center justify-center text-red-500 hover:text-red-600 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-red-600 transition-hover-300">
+                <button @click="showMobileNav = false" type="button" class="p-2 rounded-md inline-flex items-center justify-center text-lime-500 hover:text-lime-600 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-lime-600 transition-hover-300">
                   <span class="sr-only">Close main menu</span>
                   <!-- Heroicon name: outline/x -->
                   <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -37,8 +35,8 @@
               </div>
             </div>
             <div class="px-2 pt-2 pb-3 space-y-1">
-              <NuxtLink @click="showMobileNav = false" to="/" class="block px-3 py-2 rounded-md text-base font-medium text-turq-600 hover:text-turq-500 hover:bg-zinc-800 transition-hover-300">Home</NuxtLink>
-              <NuxtLink @click="showMobileNav = false" to="https://calendly.com/gunnarmortgage/15min?month=2022-12" target="_blank" class="block px-3 py-2 rounded-md text-base font-medium text-turq-600 hover:text-turq-500 hover:bg-zinc-800 transition-hover-300">Schedule Meeting</NuxtLink>
+              <NuxtLink @click="showMobileNav = false" to="/" class="block px-3 py-2 rounded-md text-base font-medium text-lime-600 hover:text-lime-500 hover:bg-zinc-800 transition-hover-300">Home</NuxtLink>
+              <NuxtLink @click="showMobileNav = false" to="https://calendly.com/gunnarmortgage/15min?month=2022-12" target="_blank" class="block px-3 py-2 rounded-md text-base font-medium text-lime-600 hover:text-lime-500 hover:bg-zinc-800 transition-hover-300">Schedule Meeting</NuxtLink>
             </div>
           </div>
         </div>
@@ -70,7 +68,7 @@
             <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
             </svg>
-            <NuxtLink to="mailto:gunnar.bolf@movement.com" class="font-medium ml-2">Gunnar.bolf@movement.com</NuxtLink>
+            <NuxtLink to="mailto:gunnarb@cmghomeloans.com" class="font-medium ml-2">gunnarb@cmghomeloans.com</NuxtLink>
           </div>
           <div class="mt-1 flex justify-center sm:justify-start items-center text-white">
             <svg class="h-5 w-5"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">

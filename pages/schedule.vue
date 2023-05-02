@@ -56,7 +56,7 @@
               </transition>
             </Menu>
             <div class="ml-6 h-6 w-px bg-gray-300" />
-            <button type="button" class="ml-6 rounded-md border border-transparent bg-red-600 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2">Schedule call</button>
+            <button type="button" class="ml-6 rounded-md border border-transparent bg-lime-600 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-lime-700 focus:outline-none focus:ring-2 focus:ring-lime-500 focus:ring-offset-2">Schedule call</button>
           </div>
           <Menu as="div" class="relative ml-6 md:hidden">
             <MenuButton class="-mx-2 flex items-center rounded-full border border-transparent p-2 text-gray-400 hover:text-gray-500">
@@ -100,12 +100,12 @@
           <div ref="containerNav" class="sticky top-0 z-10 grid flex-none grid-cols-7 bg-white text-xs text-gray-500 shadow ring-1 ring-black ring-opacity-5 md:hidden">
             <button type="button" class="flex flex-col items-center pt-3 pb-1.5">
               <span>W</span>
-              <!-- Default: "text-gray-900", Selected: "bg-gray-900 text-white", Today (Not Selected): "text-red-600", Today (Selected): "bg-red-600 text-white" -->
+              <!-- Default: "text-gray-900", Selected: "bg-gray-900 text-white", Today (Not Selected): "text-lime-600", Today (Selected): "bg-lime-600 text-white" -->
               <span class="mt-3 flex h-8 w-8 items-center justify-center rounded-full text-base font-semibold text-gray-900">19</span>
             </button>
             <button type="button" class="flex flex-col items-center pt-3 pb-1.5">
               <span>T</span>
-              <span class="mt-3 flex h-8 w-8 items-center justify-center rounded-full text-base font-semibold text-red-600">20</span>
+              <span class="mt-3 flex h-8 w-8 items-center justify-center rounded-full text-base font-semibold text-lime-600">20</span>
             </button>
             <button type="button" class="flex flex-col items-center pt-3 pb-1.5">
               <span>F</span>
@@ -270,8 +270,8 @@
             <div>S</div>
           </div>
           <div class="isolate mt-2 grid grid-cols-7 gap-px rounded-lg bg-gray-200 text-sm shadow ring-1 ring-gray-200">
-            <button v-for="(day, dayIdx) in days" :key="day.date" type="button" :class="['py-1.5 hover:bg-gray-100 focus:z-10', day.isCurrentMonth ? 'bg-white' : 'bg-gray-50', (day.isSelected || day.isToday) && 'font-semibold', day.isSelected && 'text-white', !day.isSelected && day.isCurrentMonth && !day.isToday && 'text-gray-900', !day.isSelected && !day.isCurrentMonth && !day.isToday && 'text-gray-400', day.isToday && !day.isSelected && 'text-red-600', dayIdx === 0 && 'rounded-tl-lg', dayIdx === 6 && 'rounded-tr-lg', dayIdx === days.length - 7 && 'rounded-bl-lg', dayIdx === days.length - 1 && 'rounded-br-lg']">
-              <time :datetime="day.date" :class="['mx-auto flex h-7 w-7 items-center justify-center rounded-full', day.isSelected && day.isToday && 'bg-red-600', day.isSelected && !day.isToday && 'bg-gray-900']">{{ day.date.split('-').pop().replace(/^0/, '') }}</time>
+            <button v-for="(day, dayIdx) in days" :key="day.date" type="button" :class="['py-1.5 hover:bg-gray-100 focus:z-10', day.isCurrentMonth ? 'bg-white' : 'bg-gray-50', (day.isSelected || day.isToday) && 'font-semibold', day.isSelected && 'text-white', !day.isSelected && day.isCurrentMonth && !day.isToday && 'text-gray-900', !day.isSelected && !day.isCurrentMonth && !day.isToday && 'text-gray-400', day.isToday && !day.isSelected && 'text-lime-600', dayIdx === 0 && 'rounded-tl-lg', dayIdx === 6 && 'rounded-tr-lg', dayIdx === days.length - 7 && 'rounded-bl-lg', dayIdx === days.length - 1 && 'rounded-br-lg']">
+              <time :datetime="day.date" :class="['mx-auto flex h-7 w-7 items-center justify-center rounded-full', day.isSelected && day.isToday && 'bg-lime-600', day.isSelected && !day.isToday && 'bg-gray-900']">{{ day.date.split('-').pop().replace(/^0/, '') }}</time>
             </button>
           </div>
         </div>
