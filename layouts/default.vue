@@ -2,8 +2,9 @@
   <div :class="getRouteBg()">
     <nav>
       <div class="max-w-7xl lg:max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center p-4">
-        <div class="z-10 flex space-x-4">
-          <img src="~/assets/img/logos/gm_circle.svg" alt="" class="h-12 w-12 sm:h-16 sm:w-16">
+        <div class="z-10 flex space-x-6 items-center">
+          <img src="../assets/img/logos/gm_circle.svg" alt="" class="h-12 w-12 sm:h-16 sm:w-16">
+          <img src="../assets/img/logos/cmg_logo.svg" alt="" class="h-6 w-auto sm:h-8 sm:w-auto">
         </div>
         <div class="flex items-center md:hidden">
           <button @click="showMobileNav = true" type="button" class="z-10 rounded-md p-2 inline-flex items-center justify-center text-lime-500 hover:text-lime-600 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-lime-600 transition-hover-300" aria-expanded="false">
@@ -64,11 +65,32 @@
           </NuxtLink>
         </div>
         <div class="mt-8 md:mt-0 md:order-1 flex-col items-center">
-          <div class="flex justify-center sm:justify-start items-center text-white">
-            <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-            </svg>
-            <NuxtLink to="mailto:gunnarb@cmghomeloans.com" class="font-medium ml-2">gunnarb@cmghomeloans.com</NuxtLink>
+          <div class="max-w-lg">
+            <div class="text-white">
+              <p>Gunnar Bolf</p>
+              <p>Senior Loan Officer, NMLS ID# 1368590</p>
+              <p>3220 Tillman Dr, Suite 122</p>
+              <p>Bensalem, PA 19020, Branch NMLS ID# 1690958</p>
+              <p class="mt-3">CMG Mortgage, Inc. dba CMG Home Loans dba CMG Financial, NMLS# 1820, is an equal housing lender. 
+                Licensed by the NJ Department of Banking and Insurance. 
+                To verify our complete list of state licenses, please visit
+                <NuxtLink to="https://www.cmgfi.com/corporate/licensing" target="_blank" class="text-blue-400">https://www.cmgfi.com/corporate/licensing</NuxtLink>
+                and
+                <NuxtLink to="https://www.nmlsconsumeraccess.org/" target="_blank" class="text-blue-400">https://www.nmlsconsumeraccess.org/</NuxtLink>.
+              </p>
+              <div class="mt-5 flex flex-col text-blue-400">
+                <NuxtLink to="https://www.cmghomeloans.com/corporate/web-accessibility" target="_blank">Web Accessibility</NuxtLink> 
+                <NuxtLink to="https://www.cmghomeloans.com/corporate/licensing" target="_blank">Licensing</NuxtLink> 
+                <NuxtLink to="https://www.cmghomeloans.com/corporate/privacy-policy" target="_blank">Privacy Policy</NuxtLink> 
+                <NuxtLink to="https://www.cmghomeloans.com/corporate/terms-of-use" target="_blank">Terms of Use</NuxtLink> 
+              </div>
+            </div>
+            <div class="mt-4 flex justify-center sm:justify-start items-center text-white">
+              <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+              <NuxtLink to="mailto:gunnarb@cmghomeloans.com" class="font-medium ml-2">gunnarb@cmghomeloans.com</NuxtLink>
+            </div>
           </div>
           <div class="mt-1 flex justify-center sm:justify-start items-center text-white">
             <svg class="h-5 w-5"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -84,7 +106,7 @@
             </p>
           </div>
           <div>
-            <img src="~/assets/img/logos/nmls.png" alt="" class="w-auto h-12">
+            <img src="../assets/img/logos/nmls.png" alt="" class="w-auto h-12">
           </div>
       </div>
       </div>
