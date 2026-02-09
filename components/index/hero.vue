@@ -12,7 +12,7 @@
             <p class="mt-8 text-zinc-400 text-xl 2xl:text-2xl font-medium">Buying a home and getting a mortgage can be a stressful process. Work with someone who knows what they're doing and has the reputation to back it.</p>
             <div class="mt-10 flex justify-start">
               <NuxtLink 
-                to="https://my.cmghomeloans.com/dr/c/s7b3r" 
+                to="https://secure.cmghomeloans.com/apply?id=224092" 
                 target="_blank" 
                 class="inline-flex items-center justify-center w-72 lg:w-96 2xl:w-[27rem] h-16 md:h-20 px-6 py-4 uppercase font-semibold tracking-wider bg-lime-500 text-white text-xl lg:text-2xl hover:bg-lime-600 transition-hover-300 rounded-full"
               >

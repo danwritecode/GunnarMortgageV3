@@ -49,7 +49,7 @@
             </div>
             <div class="w-full py-3 px-5 sm:py-4 sm:px-6 rounded-b-lg flex items-center bg-gradient-to-br from-zinc-900 via-zinc-700 to-zinc-500">
               <div>
-                <img class="border-2 border-white w-10 h-10 flex-shrink-0 mx-auto bg-black rounded-full" :src="review.profile_photo_url" alt="">
+                <img class="border-2 border-white w-10 h-10 flex-shrink-0 mx-auto bg-black rounded-full" :src="review.profile_photo_url" referrerpolicy="no-referrer" alt="">
               </div>
               <div class="pl-3">
                 <p class="font-black text-white leading-tight">{{ review.author_name }}</p>
