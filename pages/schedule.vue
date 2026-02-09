@@ -61,7 +61,7 @@
           <Menu as="div" class="relative ml-6 md:hidden">
             <MenuButton class="-mx-2 flex items-center rounded-full border border-transparent p-2 text-gray-400 hover:text-gray-500">
               <span class="sr-only">Open menu</span>
-              <DotsHorizontalIcon class="h-5 w-5" aria-hidden="true" />
+              <EllipsisHorizontalIcon class="h-5 w-5" aria-hidden="true" />
             </MenuButton>
 
             <transition enter-active-class="transition ease-out duration-100" enter-from-class="transform opacity-0 scale-95" enter-to-class="transform opacity-100 scale-100" leave-active-class="transition ease-in duration-75" leave-from-class="transform opacity-100 scale-100" leave-to-class="transform opacity-0 scale-95">
@@ -282,7 +282,7 @@
 
 <script setup>
 import { ref, onMounted } from 'vue'
-import { ChevronDownIcon, ChevronLeftIcon, ChevronRightIcon, DotsHorizontalIcon } from '@heroicons/vue/solid'
+import { ChevronDownIcon, ChevronLeftIcon, ChevronRightIcon, EllipsisHorizontalIcon } from '@heroicons/vue/20/solid'
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
 
 definePageMeta({

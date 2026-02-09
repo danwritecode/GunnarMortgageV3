@@ -8,8 +8,7 @@ export default defineEventHandler(async (event) => {
     return JSON.stringify(response.result.reviews)
   } catch(error) {
     console.log(error)
-    event.res.statusCode = 500
-    event.res.end()
+    throw createError({ statusCode: 500, statusMessage: 'Failed to fetch reviews' })
   }
 })
 

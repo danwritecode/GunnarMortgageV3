@@ -64,7 +64,7 @@
 </template>
 
 <script setup lang="ts">
-import { Review } from '~/models/reviews'
+import type { Review } from '~/models/reviews'
 
 const { data: reviews, pending: loading, refresh, error } = await useLazyAsyncData<Review[]>('review', () => $fetch('/api/reviews', { method: 'GET', parseResponse: JSON.parse }))
 </script>
